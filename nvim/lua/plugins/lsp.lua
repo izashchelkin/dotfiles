@@ -13,6 +13,12 @@ return {
         }
       }
     },
+    opts = {
+      servers = {
+        lua_ls = {},
+        clangd = {},
+      }
+    },
     config = function(_, opts)
       local lspconfig = require("lspconfig")
       for server, config in pairs(opts.servers) do
