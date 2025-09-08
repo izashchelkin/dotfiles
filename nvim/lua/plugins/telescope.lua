@@ -11,7 +11,8 @@ return {
       require("telescope").setup {
         pickers = {
           find_files = {
-            theme = "ivy"
+            -- theme = "ivy",
+            hidden = true,
           }
         },
         extensions = {
@@ -34,7 +35,8 @@ return {
         }
       end)
 
-      require "config.telescope.multigrep".setup(require "telescope.themes".get_ivy())
+      require "config.telescope.multigrep".setup()
+      -- require "config.telescope.multigrep".setup(require "telescope.themes".get_ivy())
     end
   }
 }

@@ -1,8 +1,11 @@
 background = #1c1c1c
 foreground = #eeeeee
 
-font-family = Jetbrains Mono
-font-size = 13
+font-family = Inconsolata
+font-size = 14
+font-feature = -calt
+font-feature = -dlig
+font-feature = -liga
 
 gtk-titlebar = false
 
