@@ -9,3 +9,7 @@ font-feature = -liga
 
 gtk-titlebar = false
 
+shell-integration-features = no-cursor
+cursor-style = block_hollow
+cursor-style-blink = false
+

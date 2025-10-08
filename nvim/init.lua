@@ -8,6 +8,7 @@ opt.shiftwidth = 4
 opt.clipboard = "unnamedplus"
 opt.ignorecase = true
 opt.smartcase = true
+opt.guicursor = ""
 
 vim.cmd("set cinoptions+=l1")
 vim.cmd("set nowrap")
@@ -30,6 +31,8 @@ keymap.set("n", "<C-d>", "<C-d>zz")
 keymap.set("n", "<C-u>", "<C-u>zz")
 keymap.set("n", "n", "nzz")
 keymap.set("n", "N", "Nzz")
+keymap.set("n", "{", "{zz")
+keymap.set("n", "}", "}zz")
 
 keymap.set("n", "<leader>-", ":Oil<CR>")
 
